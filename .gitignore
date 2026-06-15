@@ -1,0 +1,46 @@
+/node_modules/
+.next/
+out/
+build/
+dist/
+
+# Env
+.env
+.env.local
+.env.production
+.env.development
+
+# Vercel / deployment artifacts
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# VS Code workspace settings (explicit)
+.vscode/settings.json
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Static build artifacts
+/public/static/
+
+# Misc
+.env.*.local
+
+# Ignore local build traces
+.trace

@@ -1,0 +1,14 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1000" rx="64" fill="#F8F1E8"/>
+  <path d="M140 820C160 650 260 510 400 420C560 315 680 250 720 180" stroke="#D9A79B" stroke-width="28" stroke-linecap="round"/>
+  <path d="M120 700C210 610 320 560 420 520C550 470 650 420 700 350" stroke="#E8C9C0" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="220" cy="260" r="140" fill="#FFFFFF" fill-opacity="0.65"/>
+  <circle cx="580" cy="210" r="96" fill="#D9A79B" fill-opacity="0.3"/>
+</svg>
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1000" rx="64" fill="#F8F1E8"/>
+  <path d="M140 820C160 650 260 510 400 420C560 315 680 250 720 180" stroke="#D9A79B" stroke-width="28" stroke-linecap="round"/>
+  <path d="M120 700C210 610 320 560 420 520C550 470 650 420 700 350" stroke="#E8C9C0" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="220" cy="260" r="140" fill="#FFFFFF" fill-opacity="0.65"/>
+  <circle cx="580" cy="210" r="96" fill="#D9A79B" fill-opacity="0.3"/>
+</svg>
