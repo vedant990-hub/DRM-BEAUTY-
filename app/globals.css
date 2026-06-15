@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 38 50% 98%;
+  --foreground: 0 0% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 10%;
+  --border: 30 20% 88%;
+  --input: 30 20% 88%;
+  --ring: 15 45% 62%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(232, 201, 192, 0.2), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(217, 167, 155, 0.15), transparent 26%),
+    linear-gradient(180deg, #fffdfb 0%, #fbf5ee 50%, #f7f1e8 100%);
+  color: #161616;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+::selection {
+  background: rgba(217, 167, 155, 0.34);
+  color: #161616;
+}
+
+.container-page {
+  width: min(100%, 1280px);
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-page {
+    padding-inline: 1.5rem;
+  }
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.54);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
