@@ -2,14 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "DRM Beauty | Premium Beauty and Cosmetics",
-  description:
-    "DRM Beauty is a premium beauty and cosmetics storefront prototype focused on elevated discovery and conversion.",
-  metadataBase: new URL("https://drmbeauty.example"),
+  title: "DRM Beauty | Coming Soon",
+  description: "DRM Beauty — Discover something beautiful coming soon.",
+  metadataBase: new URL("https://drmbeauty.in"),
   openGraph: {
-    title: "DRM Beauty",
-    description:
-      "Premium beauty and cosmetics storefront prototype with a soft luxury aesthetic.",
+    title: "DRM Beauty | Coming Soon",
+    description: "DRM Beauty — Discover something beautiful coming soon.",
     type: "website"
   }
 };
